@@ -1,0 +1,16 @@
+.step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .step-number {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .step-description {
+    font-size: 16px;
+    text-align: left;
+  }
+  

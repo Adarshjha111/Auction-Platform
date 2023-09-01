@@ -1,0 +1,96 @@
+/* AuctionCard.css */
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  width: auto;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 5px;
+}
+
+.delete-icon {
+  display: inline-block;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.bid-button {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.2s, color 0.2s;
+  margin-top: 10px;
+}
+
+.delete-icon {
+  background-color: transparent;
+  color: #d9534f;
+  font-size: 20px;
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  width: 40px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+ .delete-icon:hover{
+  transform: scale(1.05);
+ /* background-color: #e06161; */
+} 
+
+.bid-button:hover {
+  background-color:  #0056b3;
+}
+
+.delete-icon-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 10px; 
+  height: 10px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 576px) {
+  .card {
+    padding: 16px;
+  }
+
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .card-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .bid-button,
+  .delete-icon {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+}

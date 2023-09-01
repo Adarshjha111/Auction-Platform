@@ -1,0 +1,28 @@
+.how-it-works {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .how-it-works-sell-section{
+    margin-top: 30px;
+  }
+  
+  .steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .steps h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .steps p {
+    max-width: 600px;
+    margin-bottom: 30px;
+  }
+  
+
+ 

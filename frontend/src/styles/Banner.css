@@ -1,0 +1,30 @@
+.banner {
+    margin-top: 2px;
+    position: relative;
+    background-image: url("../images/homepage.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust the height as needed */
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-content {
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  
+  .banner-content a {
+    color: white; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+  }
+  
+  .banner-content a:hover {
+    color: #ffd700; 
+  }
